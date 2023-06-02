@@ -6,7 +6,7 @@ under Windows. It consists of VBCC, VASM, VLINK and PosixLib.
 Current build consists of:
 - VBCC v0.9g
 - VLink v0.16f
-- VAsm v1.8i
+- VAsm v1.9a
 
 # Clone repository
 Clone repository with all submodules (vbcc, vlink and vasm) to a local drive:
