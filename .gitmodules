@@ -4,3 +4,6 @@
 [submodule "src/vlink"]
 	path = src/vlink
 	url = ../vlink.git
+[submodule "src/vasm"]
+	path = src/vasm
+	url = ../vasm.git
