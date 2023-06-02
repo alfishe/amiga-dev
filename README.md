@@ -8,6 +8,33 @@ Current build consists of:
 - VLink v0.16f
 - VAsm v1.8i
 
+# Clone repository
+Clone repository with all submodules (vbcc, vlink and vasm) to a local drive:
+
+```console
+git clone --recurse-submodules https://github.com/alfishe/amiga-dev.git
+```
+
+or
+
+```console
+git clone https://github.com/alfishe/amiga-dev.git
+git submodule init
+git submodule update
+```
+
+Pull changes / update:
+```console
+git pull --recurse-submodules
+```
+
+## Build
+```console
+cd src
+./build.sh
+```
+
+
 ## Installation
 
 Install everything to "C:\amiga-dev\", add "C:\amiga-dev\bin\" to PATH, and
